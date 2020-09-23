@@ -11,6 +11,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
+/*
+  Setting type according to a 3:4 (Major Third) Modular Scale:
+  https://www.modularscale.com/?20&px&1.333
+*/
+
 html {
   font-family: 'Crimson Text', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
   font-size: 20px;
@@ -19,6 +24,9 @@ html {
 }
 
 h1 {
+  font-size: 35.538px;
+  line-height: 50px; /* Twice the 25px baseline */
+  line-height: 37.5px; /* One and a half times the 25px baseline */
   padding-bottom: 25px;
 }
 
