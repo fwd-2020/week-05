@@ -18,14 +18,15 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-family: 'Crimson Text', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 1.25em; /* 20px / 16px = 1.25 */
+  line-height: 1.25em; /* 25px / 20px = 1.25 */
   padding: 25px 12.5px 25px 12.5px; /* TRBL */
+  color: purple;
 }
 
 h1 {
-  font-size: 35.538px;
-  line-height: 37.5px; /* One and a half times the 25px baseline */
+  font-size: 1.7769em; /* 35.538 / 20px = 1.7769 */
+  line-height: 1.0552085092em; /* 37.5 / 35.538 = 1.0552085092; (1.5 times the 25px baseline */
   padding-bottom: 25px;
 }
 h2 {
