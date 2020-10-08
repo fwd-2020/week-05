@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap');
-@import url('//basehold.it/25');
+@import url('//basehold.it/24');
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -14,45 +14,51 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /*
   Setting type according to a 3:4 (Major Third) Modular Scale:
   https://www.modularscale.com/?20&px&1.333
+
+  Base font-size: 20px // 1.25em ( 20 / 16)
+  Base line-height: 24px // 1.2em (24 / 20)
 */
 
 html {
   font-family: 'Crimson Text', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
-  font-size: 1.25em; /* 20px / 16px = 1.25 */
-  line-height: 1.25em; /* 25px / 20px = 1.25 */
-  padding: 25px 12.5px 25px 12.5px; /* TRBL */
-  color: purple;
+  font-size: 1.25em;                /* 20px / 16px = 1.25 */
+  line-height: 1.2em;               /* 24px / 20px = 1.2 */
+  padding: 1.2em 0.6em 1.2em 0.6em; /* TRBL shorthand; 12px / 20px = 0.6 */
 }
 
+/* Headings */
 h1 {
-  font-size: 1.7769em; /* 35.538 / 20px = 1.7769 */
-  line-height: 1.0552085092em; /* 37.5 / 35.538 = 1.0552085092; (1.5 times the 25px baseline */
-  padding-bottom: 25px;
+  font-size: 1.7769em;            /* 35.538 / 20px = 1.7769 */
+  line-height: 1.0130001688em;    /* 36 / 35.538 = 1.0130001688; (1.5 times the 24px baseline */
+  padding-bottom: 1.3506668918em; /* 48px / 35.538px = 1.3506668918 */
+  padding-top: 1.0130001688em;    /* 36 / 35.538 = 1.0130001688 */
 }
 h2 {
-  font-size: 26.66px;
-  line-height: 31.25px; /* 1.25 * 25px = 31.25px */
+  font-size: 1.333em;          /* 26.66 / 20 = 1.333 */
+  line-height: 1.3503375844em; /* 36 / 26.66 = 1.3503375844 */
+  padding-top: 0.4501125281em; /* 12 / 26 = 0.4501125281 */
 }
 h3 {
   font-weight: 600;
 }
 
+/* Paragraphs */
 p {
-  padding-bottom: 25px;
+  padding-bottom: 1.2em; /* 24px / 20px = 1.2 */
 }
 
+/* Lists */
 ul {
-  margin-left: 12.5px;
-  padding-bottom: 12.5px;
+  margin-left: 0.6em;    /* 12px / 20px = 0.6 */
+  padding-bottom: 0.6em; /* 12px / 20px = 0.6 */
   list-style-type: disc;
 }
 ul ul {
   list-style-type: circle;
 }
 li {
-  padding-bottom: 12.5px;
+  padding-bottom: 0.6em; /* 12px / 20px = 0.6 */
 }
-
 ul ul,
 ul ul li {
   padding-bottom: 0;
